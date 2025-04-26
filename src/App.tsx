@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Navigation from "./components/Navigation";
 import "./index.css";
+import Mercury from "./assets/MercuryFirst.png";
 
 function App() {
   return (
@@ -12,21 +13,22 @@ function App() {
           <Navigation />
         </div>
       </div>
-      <div className="">
+      <div className="w-full flex justify-around content-center gap-[300px] px-[165px] pt-[126px]">
         <div className="">
-          <img src={} alt="Mercury" />
+          <img className="mx-[170px] mt-[116px]" src={Mercury} alt="Mercury" />
         </div>
-        <div className="">
-          <h1 className="">MERCURY</h1>
-          <p className="">
+        <div className="pb-6">
+          <h1 className="font-normal text-[80px]">MERCURY</h1>
+          <p className="font-normal text-[14px] font-Spartan">
             Mercury is the smallest planet in the Solar System and the closest
             to the Sun. Its orbit around the Sun takes 87.97 Earth days, the
             shortest of all the Sun's planets. Mercury is one of four
             terrestrial planets in the Solar System, and is a rocky body like
             Earth.
           </p>
-          <h3 className="">
-            Source : <span className="">Wikipedia</span>
+          <h3 className="font-Spartan font-bold text-[14px] ">
+            Source :{" "}
+            <span className="underline decoration-solid ">Wikipedia</span>
           </h3>
           <div className="">
             <button className=""></button>
