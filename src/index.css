@@ -3,18 +3,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-fff: [#FFFFFF];
-  --bg-planet-070: [#070724];
-  --bg-planet-383: [#38384F];
-  --bg-planet-838: [#838391];
-  --bg-planet-419: [#419EBB];
-  --bg-planet-eda: [#EDA249];
-  --bg-planet-6f2: [#6F2ED6];
-  --bg-planet-d14: [#D14C32];
-  --bg-planet-d83: [#D83A34];
-  --bg-planet-cd5: [#CD5120];
-  --bg-planet-1ec: [#1EC2A4];
-  --bg-planet-2d6: [#2D68F0];
-  --font-Antonio: "Antonio", sans-serif;
+  --default-font-family: "Antonio", sans-serif;
+  --color-planet-white: [#FFF];
+  --color-planet-black: [#070724];
+  --color-planet-blackwhite: [#38384F];
+  --color-planet-838: [#838391];
+  --color-planet-419: [#419EBB];
+  --color-planet-eda: [#EDA249];
+  --color-planet-6f2: [#6F2ED6];
+  --color-planet-d14: [#D14C32];
+  --color-planet-d83: [#D83A34];
+  --color-planet-cd5: [#CD5120];
+  --color-planet-1ec: [#1EC2A4];
+  --color-planet-2d6: [#2D68F0];
   --font-Spartan: "League Spartan", sans-serif;
 }

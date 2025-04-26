@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <ul className="flex justify-around pt-[33px] gap-[33px]">
+    <ul className="flex justify-around content-center gap-[33px] font-bold text-[11px] leading-6 pt-[11px] pb-[27px]">
       <li>
         <Link to={"/"}>Mercury</Link>
       </li>
