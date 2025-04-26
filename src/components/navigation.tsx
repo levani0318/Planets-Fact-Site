@@ -2,30 +2,30 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <ul>
+    <ul className="flex justify-around pt-[33px] gap-[33px]">
       <li>
-        <link to={"/"}>Mercury</link>
+        <Link to={"/"}>Mercury</Link>
       </li>
       <li>
-        <link to={"/venus"}>Venus</link>
+        <Link to={"venus"}>Venus</Link>
       </li>
       <li>
-        <link to={"/earth"}>Earth</link>
+        <Link to={"/earth"}>Earth</Link>
       </li>
       <li>
-        <link to={"/mars"}>Mars</link>
+        <Link to={"/mars"}>Mars</Link>
       </li>
       <li>
-        <link to={"/jupiter"}>Jupiter</link>
+        <Link to={"/jupiter"}>Jupiter</Link>
       </li>
       <li>
-        <link to={"/saturn"}>Saturn</link>
+        <Link to={"/saturn"}>Saturn</Link>
       </li>
       <li>
-        <link to={"/uranus"}>Uranus</link>
+        <Link to={"/uranus"}>Uranus</Link>
       </li>
       <li>
-        <link to={"/neptune"}>Neptune</link>
+        <Link to={"/neptune"}>Neptune</Link>
       </li>
     </ul>
   );

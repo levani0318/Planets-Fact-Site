@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 @theme {
-  --bg-planet-FFF: [#FFFFFF];
+  --color-fff: [#FFFFFF];
   --bg-planet-070: [#070724];
   --bg-planet-383: [#38384F];
   --bg-planet-838: [#838391];
