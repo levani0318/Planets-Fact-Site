@@ -1,39 +1,46 @@
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Mercury from "./Mercury.tsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Earth from "./pages/Earth.tsx";
+import Venus from "./pages/Venus.tsx";
+import Mars from "./pages/Mars.tsx";
+import Jupiter from "./pages/Jupiter.tsx";
+import Saturn from "./pages/Saturn.tsx";
+import Uranus from "./pages/Uranus.tsx";
+import Neptune from "./pages/Neptune.tsx";
+import App from "./App.tsx";
+import { createBrowserRouter, Router, RouterProvider } from "react-router-dom";
 
-const route = createBrowserRouter([
+const router = createBrowserRouter([
   {
-    path: "/Mercury",
-    element: <Mercury />,
+    path: "/",
+    element: <App />,
   },
   {
-    path: "/Venus",
+    path: "/venus",
     element: <Venus />,
   },
   {
-    path: "/Earth",
+    path: "/earth",
     element: <Earth />,
   },
   {
-    path: "/Mars",
+    path: "/mars",
     element: <Mars />,
   },
   {
-    path: "/Jupiter",
+    path: "/jupiter",
     element: <Jupiter />,
   },
   {
-    path: "/Saturn",
+    path: "/saturn",
     element: <Saturn />,
   },
   {
-    path: "/Uranus",
+    path: "/uranus",
     element: <Uranus />,
   },
   {
-    path: "/Neptune",
+    path: "/neptune",
     element: <Neptune />,
   },
 ]);
