@@ -3,6 +3,7 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import "./index.css";
 import Mercury from "./assets/MercuryFirst.png";
+import bgImage from "./assets/bg.png";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Navigation />
         </div>
       </div>
-      <div className="w-full flex justify-around gap-[300px] px-[165px] pt-[126px] bg-[#070724] text-[#fff]">
+      <div className="w-full flex justify-around gap-[300px] px-[165px] pt-[126px] bg-[url('./assets/bg.png')] text-[#fff]">
         <div className="">
           <img
             className="w-[290px] h-[290px] ml-[170px] mr-[300px] mt-[116px]"
