@@ -7,16 +7,16 @@ import Mercury from "./assets/MercuryFirst.png";
 function App() {
   return (
     <div className="">
-      <div className="w-full flex justify-around content-center gap-[594px] px-8 pt-[22px] text-[#FFF] bg-[#070724] border-b-white">
+      <div className="w-full flex justify-around content-center gap-[594px] px-8 pt-[22px] text-[#FFF] bg-[#070724]">
         <h1 className="font-Antonio font-normal text-[28px] ">THE PLANETS</h1>
         <div className="font-Spartan">
           <Navigation />
         </div>
       </div>
-      <div className="w-full flex justify-around gap-[300px] px-[165px] pt-[126px] rounded-lg text-[#fff] bg-[#070724]">
+      <div className="w-full flex justify-around gap-[277px] pl-[312px] pt-[126px] rounded-lg text-[#fff] bg-[#070724]">
         <div className="">
           <img
-            className="w-[290px] h-[290px] ml-[170px] mr-[300px] mt-[116px]"
+            className="w-[290px] h-[290px] mt-[116px]"
             src={Mercury}
             alt="Mercury"
           />
