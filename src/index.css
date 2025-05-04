@@ -4,9 +4,9 @@
 
 @theme {
   --default-font-family: "Antonio", sans-serif;
-  --color-planet-white: [#FFF];
-  --color-planet-black: [#070724];
-  --color-planet-blackwhite: [#38384F];
+  --color-planet-white: #fff;
+  --color-planet-black: #070724;
+  --color-planet-blackwhite: #38384f;
   --color-planet-838: [#838391];
   --color-planet-419: [#419EBB];
   --color-planet-eda: [#EDA249];

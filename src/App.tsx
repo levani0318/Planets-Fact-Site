@@ -1,19 +1,19 @@
 import { useState } from "react";
-import "./App.css";
 import Navigation from "./components/Navigation";
 import "./index.css";
+
 import Mercury from "./assets/MercuryFirst.png";
 
 function App() {
   return (
-    <div className="">
-      <div className="w-full flex justify-around content-center gap-[594px] px-8 pt-[22px] text-[#FFF] bg-[#070724]">
+    <div className="w-full h-screen absolute top-0 bg-contain bg-[url(./assets/BgImage.png)] bg-[#070724]">
+      <div className="w-full flex justify-between px-8 pt-[22px] text-[#FFF]">
         <h1 className="font-Antonio font-normal text-[28px] ">THE PLANETS</h1>
         <div className="font-Spartan">
           <Navigation />
         </div>
       </div>
-      <div className="w-full flex justify-around gap-[277px] pl-[312px] pt-[126px] rounded-lg text-[#fff] bg-[#070724]">
+      <div className="flex justify-between pl-[312px] pt-[126px] rounded-lg text-[#fff] bg-[#070724]">
         <div className="">
           <img
             className="w-[290px] h-[290px] mt-[116px]"
