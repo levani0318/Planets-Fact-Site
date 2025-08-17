@@ -1,6 +1,6 @@
 import "./index.css";
 import Mercury from "./assets/MercuryFirst.png";
-import Navigation from "./components/Navigation";
+import Navbar from "./components/Navigation";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className="w-full flex justify-between px-8 pt-[22px] text-[#FFF]">
         <h1 className="font-Antonio font-normal text-[28px] ">THE PLANETS</h1>
         <div className="font-Spartan">
-          <Navigation />
+          <Navbar />
         </div>
       </div>
       <div className="flex justify-between pl-[312px] pt-[126px] rounded-lg text-[#fff] bg-[#070724]">

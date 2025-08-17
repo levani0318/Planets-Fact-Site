@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Navigation = () => {
+const Navbar = () => {
   return (
     <ul className="flex justify-around content-center gap-[33px] font-bold text-[11px] leading-6 pt-[11px] pb-[27px]">
       <li>
@@ -30,4 +30,4 @@ const Navigation = () => {
     </ul>
   );
 };
-export default Navigation;
+export default Navbar;
