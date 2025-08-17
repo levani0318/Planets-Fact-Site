@@ -1,8 +1,6 @@
-import { useState } from "react";
-import Navigation from "./components/Navigation";
 import "./index.css";
-
 import Mercury from "./assets/MercuryFirst.png";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (

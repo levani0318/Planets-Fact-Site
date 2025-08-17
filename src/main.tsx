@@ -8,7 +8,7 @@ import Saturn from "./pages/Saturn.tsx";
 import Uranus from "./pages/Uranus.tsx";
 import Neptune from "./pages/Neptune.tsx";
 import App from "./App.tsx";
-import { createBrowserRouter, Router, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
